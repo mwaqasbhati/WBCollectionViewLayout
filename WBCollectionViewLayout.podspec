@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'This Controller provides 3 type of different layouts for collection view'
 
-  s.homepage         = 'https://github.com/mwaqasbhati/MBCollectionViewLayout'
+  s.homepage         = 'https://github.com/mwaqasbhati/WBCollectionViewLayout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mwaqasbhati' => 'm.waqas.bhati@hotmail.com' }
-  s.source           = { :git => 'https://github.com/mwaqasbhati/MBCollectionViewLayout.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mwaqasbhati/WBCollectionViewLayout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version = '4.0'
   s.ios.deployment_target = '8.0'

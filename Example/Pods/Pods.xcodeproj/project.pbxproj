@@ -16,7 +16,7 @@
 		BD17235ED8DF469A8B239BFCF52D7115 /* WBCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E65AB7C20D1D41C041DEA8DEE6580F06 /* WBCollectionViewLayout-dummy.m */; };
 		CAEF37FD63B8BCF5F1AA50BFCBF9F5E9 /* WBCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B92E49C2ADAE4D640A481752CA2C504 /* WBCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F626DF6BD7392BBE4ABD39C7A7B47F60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FA222046206D43980055DC2F /* MBGridViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA222045206D43980055DC2F /* MBGridViewLayout.swift */; };
+		FA222046206D43980055DC2F /* WBGridViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA222045206D43980055DC2F /* WBGridViewLayout.swift */; };
 		FC2793879E21B09C0A77AF48EA29D9BF /* Pods-WBCollectionViewLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5E03A7589E0C2B179C133C86195543 /* Pods-WBCollectionViewLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -66,7 +66,7 @@
 		E65AB7C20D1D41C041DEA8DEE6580F06 /* WBCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
 		E769479520BC5A5AA5C487A78115EA31 /* Pods-WBCollectionViewLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBCollectionViewLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EE2AB2C9176C29C72FD1EF510E806ED6 /* Pods-WBCollectionViewLayout_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBCollectionViewLayout_Tests-resources.sh"; sourceTree = "<group>"; };
-		FA222045206D43980055DC2F /* MBGridViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBGridViewLayout.swift; sourceTree = "<group>"; };
+		FA222045206D43980055DC2F /* WBGridViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBGridViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +149,7 @@
 		31F81DF246B3D9141D9349964DF01DBC /* WBCollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
-				FA222045206D43980055DC2F /* MBGridViewLayout.swift */,
+				FA222045206D43980055DC2F /* WBGridViewLayout.swift */,
 				665BC6B308E9CB326514B4C51888DCC2 /* ReplaceMe.swift */,
 				E6E5BF15BCDD55B14034006ACFFA4612 /* Pod */,
 				2781CA743048FBE62C3EF78220CB41FE /* Support Files */,
@@ -343,7 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA222046206D43980055DC2F /* MBGridViewLayout.swift in Sources */,
+				FA222046206D43980055DC2F /* WBGridViewLayout.swift in Sources */,
 				54F2D5210D9E47FDC3FFB6C382D186DC /* ReplaceMe.swift in Sources */,
 				BD17235ED8DF469A8B239BFCF52D7115 /* WBCollectionViewLayout-dummy.m in Sources */,
 			);

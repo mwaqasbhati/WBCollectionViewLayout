@@ -9,14 +9,14 @@ import UIKit
 
 // MARK: - MBGridViewLayoutDelegate
 
-public protocol MBGridViewLayoutDelegate: class {
+public protocol WBGridViewLayoutDelegate: class {
     func colectionView(_ collectionView: UICollectionView, numberOfItemsInRow row: Int) -> CellLayout
     func colectionView(_ collectionView: UICollectionView, sizeOfItemInRow row: Int) -> CGSize?
 }
 
 // These Default methods will be used, if you will not implement Delegate Methods.
 
-extension MBGridViewLayoutDelegate {
+extension WBGridViewLayoutDelegate {
     func colectionView(_ collectionView: UICollectionView, numberOfItemsInRow row: Int) -> CellLayout {
         if row % 4 == 0 || row % 4 == 3 {
             return CellLayout.Two
@@ -68,7 +68,7 @@ open class WBGridViewLayout: UICollectionViewLayout {
     private var typeTotalItems = 0
     private var lastRowHeight = 0.0
     
-    public weak var delegate: MBGridViewLayoutDelegate?
+    public weak var delegate: WBGridViewLayoutDelegate?
     
     private lazy var quarterWidth = {
         return (self.collectionView?.frame.size.width ?? 0.0) * 0.25

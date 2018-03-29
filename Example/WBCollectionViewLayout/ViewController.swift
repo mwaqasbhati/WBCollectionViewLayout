@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let layout = MBGridViewLayout()
+        let layout = WBGridViewLayout()
         layout.delegate = self
         collectionView.setCollectionViewLayout(layout, animated: true)
     }
@@ -59,7 +59,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
 
 }
 
-extension ViewController: MBGridViewLayoutDelegate {
+extension ViewController: WBGridViewLayoutDelegate {
 
     func colectionView(_ collectionView: UICollectionView, numberOfItemsInRow row: Int) -> CellLayout {
         switch cellLayout {
