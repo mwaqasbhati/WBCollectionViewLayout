@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WBCollectionViewLayout_Example' do
+  pod 'WBCollectionViewLayout', :path => '../'
+
+  target 'WBCollectionViewLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
