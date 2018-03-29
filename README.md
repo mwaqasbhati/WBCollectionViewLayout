@@ -35,7 +35,7 @@ WBCollectionViewLayout is available through [CocoaPods](http://cocoapods.org). T
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'WBCollectionViewLayout'
+pod 'WBCollectionViewLayout', :git => 'https://github.com/mwaqasbhati/WBCollectionViewLayout.git'
 ```
 
 ## Example
