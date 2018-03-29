@@ -1,0 +1,6 @@
+framework module Pods_WBCollectionViewLayout_Tests {
+  umbrella header "Pods-WBCollectionViewLayout_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

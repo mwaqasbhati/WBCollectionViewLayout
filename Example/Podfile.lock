@@ -1,0 +1,16 @@
+PODS:
+  - WBCollectionViewLayout (0.1.0)
+
+DEPENDENCIES:
+  - WBCollectionViewLayout (from `../`)
+
+EXTERNAL SOURCES:
+  WBCollectionViewLayout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WBCollectionViewLayout: bdc26b493b8bbeadabbc30614779fb719e66e218
+
+PODFILE CHECKSUM: e6b708aaa99bc1e166f2e1c5b3f16cab2aac72d0
+
+COCOAPODS: 1.4.0

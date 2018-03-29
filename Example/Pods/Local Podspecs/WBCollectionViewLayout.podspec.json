@@ -1,0 +1,22 @@
+{
+  "name": "WBCollectionViewLayout",
+  "version": "0.1.0",
+  "summary": "A short description of WBCollectionViewLayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mwaqasbhati/WBCollectionViewLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mwaqasbhati": "m.waqas.bhati@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mwaqasbhati/WBCollectionViewLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WBCollectionViewLayout/Classes/**/*"
+}
